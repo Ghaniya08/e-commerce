@@ -70,7 +70,7 @@ const Footer = () => {
             <p className="text-xs font-semibold tracking-tight text-mydarkpink hover:text-myverydarkpink/45 duration-300">Urban Decay, Tarte, Benefi</p>
 
             <p className="text-xs font-semibold tracking-tight text-myverydarkpink hover:text-myverydarkpink/45 duration-300">Powder & blush:</p>
-            <p className="text-xs font-semibold tracking-tight text-mydarkpink hover:text-myverydarkpink/45 duration-300"> Rimmel, L'Oreal, Maybelline , NARS, Tarte, Clinique</p>
+            <p className="text-xs font-semibold tracking-tight text-mydarkpink hover:text-myverydarkpink/45 duration-300"> Rimmel, L Oreal, Maybelline , NARS, Tarte, Clinique</p>
 {/* eyess */}
           </li>
           <li>
@@ -87,7 +87,7 @@ const Footer = () => {
             <p className="text-xs font-semibold tracking-tight text-mydarkpink hover:text-myverydarkpink/45 duration-300">Benefit, Tarte, Lancome  Kat Von D, Stila, Bobbi Brown </p>
 
             <p className="text-xs font-semibold tracking-tight text-myverydarkpink hover:text-myverydarkpink/45 duration-300">Powder & blush:</p>
-            <p className="text-xs font-semibold tracking-tight text-mydarkpink hover:text-myverydarkpink/45 duration-300"> Rimmel, L'Oreal, Maybelline , NARS, Tarte, Clinique</p>
+            <p className="text-xs font-semibold tracking-tight text-mydarkpink hover:text-myverydarkpink/45 duration-300"> Rimmel, L Oreal, Maybelline , NARS, Tarte, Clinique</p>
 
           </li>
         </nav>
@@ -146,7 +146,7 @@ const Footer = () => {
 
   <li>
     <p className="text-xs font-semibold tracking-tight text-myverydarkpink hover:text-myverydarkpink/45 duration-300">Shampoo:</p>
-    <p className="text-xs font-semibold tracking-tight text-mydarkpink hover:text-myverydarkpink/45 duration-300"> Pantene, L'Oreal, Redken    </p>
+    <p className="text-xs font-semibold tracking-tight text-mydarkpink hover:text-myverydarkpink/45 duration-300"> Pantene, L Oreal, Redken    </p>
 
     <p className="text-xs font-semibold tracking-tight text-myverydarkpink hover:text-myverydarkpink/45 duration-300">Conditioner: </p>
     <p className="text-xs font-semibold tracking-tight text-mydarkpink hover:text-myverydarkpink/45 duration-300">Moroccanoil, Aveda, Bumble and bumble    </p>
@@ -166,7 +166,7 @@ const Footer = () => {
     <p className="text-xs font-semibold tracking-tight text-mydarkpink hover:text-myverydarkpink/45 duration-300">Neutrogena, Olay, La Roche-Posay    </p>
 
     <p className="text-xs font-semibold tracking-tight text-myverydarkpink hover:text-myverydarkpink/45 duration-300"> Scrub:</p>
-    <p className="text-xs font-semibold tracking-tight text-mydarkpink hover:text-myverydarkpink/45 duration-300"> St. Ives, L'Oreal, Dermalogica    </p>
+    <p className="text-xs font-semibold tracking-tight text-mydarkpink hover:text-myverydarkpink/45 duration-300"> St. Ives, L Oreal, Dermalogica    </p>
 
     <p className="text-xs font-semibold tracking-tight text-myverydarkpink hover:text-myverydarkpink/45 duration-300">Face Cream    :</p>
     <p className="text-xs font-semibold tracking-tight text-mydarkpink hover:text-myverydarkpink/45 duration-300"> Olay, Neutrogena, Laneige    </p>
@@ -211,7 +211,7 @@ const Footer = () => {
     </div>
   </div>
   <div className="bg-mylitpink">
-    <h1 className="ml-14 text-myverydarkpink text-xl "><strong>Ghaniya's Makeup Store</strong></h1>
+    <h1 className="ml-14 text-myverydarkpink text-xl "><strong>Ghaniyas Makeup Store</strong></h1>
     <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
       <p className=" flex text-gray-500 text-sm text-center sm:text-left title-font items-center font-medium justify-center">
      <Image src="/forimgpic.jpg" 
@@ -222,7 +222,7 @@ const Footer = () => {
         <a
          href="https://github.com/Ghaniya08"
         >
-          © Ghaniya's Makeup Store
+          © Ghaniyas Makeup Store
         </a>
       </p>
       <span className=" text-myverydarkpink gap-3 lg:ml-auto lg:mt-0 mt-4 w-full justify-center md:justify-start md:w-auto">
