@@ -3,7 +3,7 @@ import Image, { StaticImageData } from "next/image";
 import React, { useState } from "react";
 
 const Detailcomp = ({image}:string|string[]|StaticImageData|any)=>{
-        const [path, setpath ] = useState("")
+        const [path ] = useState("")
     return(
 
         <div>
