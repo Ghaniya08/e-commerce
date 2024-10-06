@@ -3,14 +3,13 @@ import { Button } from "@/components/ui/button";
 import { TbShoppingBagHeart } from "react-icons/tb";  
 import { FaPlus , FaMinus} from "react-icons/fa6";
 import Detailcomp from "@/components/Detailcomp";
-import { useAppDispatch, useAppSelector } from "../../store/hooks";
+import { useAppSelector } from "../../store/hooks";
 import React, { useState } from "react";
 import Successfulyymess from "@/components/Successfulyymess";
 import Link from "next/link";
 const Detailpage=({params}:{params:{detail:string}})=>{
     const products = useAppSelector((state)=>state.products)
     const details = products.filter((val)=>val.detail==params.detail);
-    const dipatch = useAppDispatch();
     const [cartItem, setCartItem] = useState({
       id: details[0].id,
         title: details[0].title,
