@@ -2,26 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+.custom-img{
+    background-image: url("../../public/frontimgs.jpg");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+
+.pic1{
+    background-image: url(../../public/megadeal.webp);
+    /* background-image: url(../../public/deal1.JPG); */
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.pic2{
+    background-image: url(../../public/skincaredeal.webp);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+
+.pic3{
+    background-image: url(../../public/haircaredeal.webp);
+}
+
+
+.pic4{
+    background-image: url(../../public/deals4.jpg);
 }
