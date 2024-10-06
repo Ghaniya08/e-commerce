@@ -1,7 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import deals from "../public/deals.jpg"
-import maindeal from "../public/maindeal.jpg"
 const Deals =()=>{
     return(
 <div className="mb-[100px] mt-[100px]"> 
