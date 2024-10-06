@@ -1,10 +1,5 @@
 import { Cart } from '@/app/utils/types'
-import { ValueIcon } from '@radix-ui/react-icons'
 import { createSlice } from '@reduxjs/toolkit'
-
-
-
-
 // Define the initial state using that type
 const initialState:   Cart[] = []
 
