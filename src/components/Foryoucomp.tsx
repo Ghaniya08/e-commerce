@@ -4,8 +4,6 @@ import { Button } from "./ui/button";
 import { IoIosCheckmarkCircle } from "react-icons/io";
 import Link from "next/link";
 import Popforforyou from "./Popforforyou";
-import { TbShoppingBagHeart } from "react-icons/tb";
-import Successfulyymess from "./Successfulyymess";
 const Foryoucomp = ({
   src ,
   alt ,
