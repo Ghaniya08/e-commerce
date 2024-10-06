@@ -13,7 +13,7 @@ import { addToCart } from "@/app/store/features/cart";
 const Popforforyou = ({details}:{details:string}) => { 
     const products = useAppSelector((state)=>state.products).find((valu)=>valu.detail==details);
     const dipatch = useAppDispatch();
-    const [cartItem, setCartItem] = useState({
+    const [cartItem] = useState({
       id: products?.id,
         title: products?.title,
         imgage: products?.imgage,
