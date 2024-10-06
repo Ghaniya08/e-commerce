@@ -2,7 +2,6 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-import logoimg from "../public/logoimg.jpg";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { NavigationMenuDemo } from "./navlinks";
 import { useAppSelector } from "@/app/store/hooks";
