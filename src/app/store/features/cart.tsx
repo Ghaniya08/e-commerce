@@ -6,17 +6,17 @@ import { createSlice } from '@reduxjs/toolkit'
 
 
 // Define the initial state using that type
-let initialState:   Cart[] = []
+const initialState:   Cart[] = []
 
-export let cartSlice = createSlice({
+export const cartSlice = createSlice({
   name: 'cart',
   // `createSlice` will infer the state type from the `initialState` argument
   initialState,
   reducers: {
     // cart functionalityy
     addToCart(state,action){
-        let uid = Math.floor(1000+Math.random()*9000)
-        let newobj = {...action.payload , uid }
+        const uid = Math.floor(1000+Math.random()*9000)
+        const newobj = {...action.payload , uid }
         state.push(newobj)
     }, 
     // ddcart
@@ -25,12 +25,12 @@ export let cartSlice = createSlice({
     },
 
     addCart(state,action){
-      let obj = state.find(
+      const obj = state.find(
         (valu) =>
         valu.id == action.payload.id  );
        if (obj) {
         ++obj.quantity;
-        let newstate = state.filter((valu)=>valu.id!==obj?.id)
+        const newstate = state.filter((valu)=>valu.id!==obj?.id)
         state = [...newstate,obj];
         return;
        }
@@ -39,7 +39,7 @@ export let cartSlice = createSlice({
     // sub
 
     subCart(state,action){
-      let obj = state.find(
+      const obj = state.find(
         (valu) =>
         valu.id == action.payload.id );
        if (obj !== undefined) {
@@ -47,7 +47,7 @@ export let cartSlice = createSlice({
           return state.filter((valu)=>valu.uid!== obj.uid)
         }
         --obj.quantity;
-        let newstate = state.filter((valu)=>valu.uid!==obj?.uid)
+        const newstate = state.filter((valu)=>valu.uid!==obj?.uid)
         state = [...newstate,obj];
         return;
        }
@@ -57,7 +57,7 @@ export let cartSlice = createSlice({
 
   
 
-export let { addToCart, dltItem , addCart , subCart } = cartSlice.actions;
+export const { addToCart, dltItem , addCart , subCart } = cartSlice.actions;
 
 
 export default cartSlice.reducer  
