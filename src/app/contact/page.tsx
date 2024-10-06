@@ -44,7 +44,7 @@ const Contact = ()=>{
       </div>
     </div>
       <p className="lg:w-2/3 text-myverydarkpink mx-auto leading-relaxed text-base">
-      Interested in joining our team? Send us a message! Feel free to ask any questions or share your thoughts on customizing our website. This is my practice project, and I'd love to hear your feedback!
+      Interested in joining our team? Send us a message! Feel free to ask any questions or share your thoughts on customizing our website. This is my practice project, and Id love to hear your feedback!
       </p>
     </div>
     <form   onSubmit={onSubmit} >
