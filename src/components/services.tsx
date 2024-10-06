@@ -51,7 +51,7 @@ const Services = () =>{
             Easy Returns
           </h2>
           <p className="leading-relaxed text-base text-mydarkpink">
-          Shop with confidence knowing that our easy returns process has you covered. If you're not fully satisfied, returning your products is simple and hassle-free. We believe in making beauty shopping as effortless as possible!
+          Shop with confidence knowing that our easy returns process has you covered. If youre not fully satisfied, returning your products is simple and hassle-free. We believe in making beauty shopping as effortless as possible!
           </p>
         </div>
       </div>
