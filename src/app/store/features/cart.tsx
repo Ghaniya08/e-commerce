@@ -6,9 +6,9 @@ import { createSlice } from '@reduxjs/toolkit'
 
 
 // Define the initial state using that type
-const initialState:   Cart[] = []
+let initialState:   Cart[] = []
 
-export const cartSlice = createSlice({
+export let cartSlice = createSlice({
   name: 'cart',
   // `createSlice` will infer the state type from the `initialState` argument
   initialState,
@@ -57,7 +57,7 @@ export const cartSlice = createSlice({
 
   
 
-export const { addToCart, dltItem , addCart , subCart } = cartSlice.actions;
+export let { addToCart, dltItem , addCart , subCart } = cartSlice.actions;
 
 
 export default cartSlice.reducer  
