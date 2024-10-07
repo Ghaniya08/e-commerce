@@ -31,7 +31,7 @@ const Cartpage = () => {
                        
                        <h2 className="text-myverydarkpink text-base
                        "><strong>Shipping Fee</strong></h2>
-                       <h2 className="text-myverydarkpink text-base"><strong>0034432</strong></h2>
+                       <h2 className="text-myverydarkpink text-base"><strong>Free Shipping</strong></h2>
 
                    </div>
                 </div>
