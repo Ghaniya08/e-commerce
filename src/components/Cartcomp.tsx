@@ -19,7 +19,7 @@ const CartComp = (
     <div className="flex lg:w-[750px]  bg-pink-100 lg:h-[150px] w-[300px] ">
     <div  className='lg:w-[100px] lg:h-[100px] w-14 h-10 mt-6 ml-3 '>
       <Image 
-    src={items.imgage}
+    src={items.imgage[0]}
     alt={""}  
     width={80}
      height={80}
